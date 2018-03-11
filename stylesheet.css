@@ -1,6 +1,5 @@
 .green {
   font-size: 70px;
-  font-family: serif;
 }
 
 .green:hover {
@@ -9,7 +8,6 @@
 
 .blue {
   font-size: 70px;
-  font-family: serif;
 }
 
 .blue:hover {
@@ -18,7 +16,6 @@
 
 .yellow {
   font-size: 70px;
-  font-family: serif;
 }
 
 .yellow:hover {
@@ -27,7 +24,6 @@
 
 .purple {
   font-size: 70px;
-  font-family: serif;
 }
 
 .purple:hover {
@@ -36,42 +32,41 @@
 
 .red {
   font-size: 70px;
-  font-family: serif;
 }
 
 .red:hover {
   color: #c62d48;
 }
 
-.searchBox {
+.textBox {
   display: inline-block;
-  width: 348px;
+  font: inherit;
+  font-size: 16px;
+  margin: 0;
+  width: 634px;
   height: 38px;
-  text-align: left;
-  font-size: 11.4px;
-  font-weight: 600;
-  padding: 0 15.200000000000001px;
-  letter-spacing: 0.1rem;
-  white-space: nowrap;
-  border-radius: 3px;
+  padding: 6px 10px;
+  background-color: #fff;
   border: 1px solid #d4dada;
-  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
+  overflow: visible;
+  box-sizing: border-box;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
 }
 
-.searchBox:hover {
-  border-color: #8f9e9e;
-  outline: 0;
-  text-decoration: none;
-}
-
-.searchBox:focus {
+.textBox:focus {
   border: 1px solid #07682c;
   outline: 0;
+  outline-offset: -2px;
 }
 
 .search-Button {
-  white-space: nowrap;
+  color: #7795f8;
   display: inline-block;
+  width: 133.906px;
   height: 40px;
   line-height: 40px;
   padding: 0 14px;
@@ -82,13 +77,17 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.025em;
-  color: #6772e5;
   text-decoration: none;
+  outline-color: none;
   transition: all 0.15s ease;
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  outline-style: none;
+  border-width: 0;
 }
 
 .search-Button:hover {
-  color: #7795f8;
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
