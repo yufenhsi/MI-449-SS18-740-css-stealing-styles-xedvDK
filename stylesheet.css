@@ -40,7 +40,7 @@
 
 .textBox {
   display: inline-block;
-  font: inherit;
+  font-family: Merriweather, sans-serif;
   font-size: 16px;
   margin: 0;
   width: 634px;
